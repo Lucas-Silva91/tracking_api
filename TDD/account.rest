@@ -1,0 +1,11 @@
+### GET
+GET http://localhost:4000/account
+### POST
+POST http://localhost:4000/account
+Content-Type: application/json
+
+{
+    "accountEcommerce":"Protork",
+    "accountCnpj":"001002003-0001",
+    "accountEmail":"protork@gmail.com"
+}

@@ -1,0 +1,12 @@
+### GET
+GET http://localhost:4000/order
+### POST
+POST http://localhost:4000/order
+Content-Type: application/json
+
+{
+    "nome":"Lucas Silva",
+    "cpf":"39826056771",
+    "email":"lcristiano.dev@gmail.com",
+    "tracking":"ABC"
+}
