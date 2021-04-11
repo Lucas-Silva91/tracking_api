@@ -1,6 +1,7 @@
 require ('dotenv').config()
 const mongoose = require ('mongoose');
 
+
 function connetionToDatabase(){
     mongoose.connect(process.env.DATABASE_STRING, { useNewUrlParser: true, useFindAndModify: true, useUnifiedTopology: true});
 
@@ -15,5 +16,7 @@ function DBSetting(){
 module.exports = {
     mongoose,
     connetionToDatabase,
-    DBSetting
+    DBSetting,
+    
 }
+
