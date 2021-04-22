@@ -6,4 +6,4 @@ const app = require ('./app')
 
 const server = http.createServer(app);
 
-server.listen(port, (req, res)=>console.log(`Server running on http://localhost:${port}`))
+server.listen(port, ()=>console.log(`Server running on http://localhost:${port}`))
