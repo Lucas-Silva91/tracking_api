@@ -15,10 +15,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-let textInformation = "Teste"
-let subjectInformation = "API Tracking"
-let toInformation = "api.trackiing@gmail.com"
-
 async function run(textInformation, subjectInformation, toInformation) {
   const mailSent = await transporter.sendMail({
     text: textInformation,

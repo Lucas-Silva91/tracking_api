@@ -1,11 +1,21 @@
 ### GET
-GET http://localhost:4000/account
+GET http://localhost:4001/account
 ### POST
-POST http://localhost:4000/account
+POST http://localhost:4001/account
 Content-Type: application/json
 
 {
     "accountEcommerce":"Protork",
     "accountCnpj":"001002003-0001",
     "accountEmail":"protork@gmail.com"
+}
+
+### Post 2
+POST http://localhost:4001/account
+Content-Type: application/json
+
+{
+    "accountEcommerce":"Sportbay",
+    "accountCnpj":"001002003-0002",
+    "accountEmail":"sportbay@gmail.com"
 }
